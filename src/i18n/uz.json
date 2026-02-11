@@ -1,0 +1,133 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "projects": "Loyihalar",
+    "services": "Xizmatlar",
+    "contacts": "Aloqa"
+  },
+  "hero": {
+    "kicker": "SaraMax — Ishonchni Himoya Qilamiz",
+    "title": "SaraMax bilan xavfsizligingizni yangi darajaga olib chiqing.",
+    "subtitle": "Zamonaviy texnologiyalar asosida ishlab chiqarilgan yuqori sifatli seyflar. Mol-mulkingiz va hujjatlaringiz uchun maksimal xavfsizlik kafolati.",
+    "ctaPrimary": "Bog‘lanish",
+    "ctaSecondary": "Loyihalarni ko‘rish"
+  },
+  "intro": {
+    "title": "SaraMax haqida qisqacha",
+    "text": "SaraMax — Toshkentda joylashgan, bizneslarga raqamli mahsulotlarni tez va ishonchli yaratishga yordam beradigan, tajribali dizaynerlar va dasturchilar jamoasi. Biz strategiya, dizayn va texnologiyani birlashtirib, har bir loyihani premium darajaga olib chiqamiz."
+  },
+  "services": {
+    "previewTitle": "Xizmatlarimiz",
+    "previewSubtitle": "Xavfsizlikni biz yaratamiz, xotirjamlikni siz his qilasiz.",
+    "pageTitle": "Premium xizmatlar",
+    "pageSubtitle": "Biz har bir loyihani chuqur tahlil qilish, kuchli UX va mijozlar uchun aniq natijalar orqali quramiz.",
+    "cards": [
+      {
+        "id": "experience",
+        "tag": "UX / UI",
+        "title": "Raqamli mahsulot dizayni",
+        "description": "Mobil va veb ilovalar uchun intuitiv interfeyslar, foydalanuvchi oqimlari va dizayn tizimlarini ishlab chiqamiz."
+      },
+      {
+        "id": "brand",
+        "tag": "Branding",
+        "title": "Brend identikasi",
+        "description": "Logotiplar, vizual til, rang palitrasi va brend qo‘llanmasi orqali kuchli bir xil ko‘rinish yaratamiz."
+      },
+      {
+        "id": "web",
+        "tag": "Frontend",
+        "title": "Yuqori sifatli veb saytlar",
+        "description": "Tezkor, SEOga tayyor va moslashuvchan (responsive) biznes saytlari va landing pagelar ishlab chiqamiz."
+      },
+      {
+        "id": "strategy",
+        "tag": "Konsalting",
+        "title": "Raqamli strategiya",
+        "description": "Mahsulot strategiyasi, foydalanuvchi tadqiqoti va analitika orqali to‘g‘ri qarorlar qabul qilishda yordam beramiz."
+      }
+    ]
+  },
+  "projects": {
+    "previewTitle": "Sifatli loyihalar",
+    "previewSubtitle": "Biz ishonchni natija orqali qozonamiz.",
+    "pageTitle": "Loyihalarimiz",
+    "pageSubtitle": "Bizning loyihalarimiz — zamonaviy texnologiyalar va mustahkam himoyaning mukammal uyg‘unligi. ",
+    "filters": {
+      "all": "Barchasi",
+      "experience": "Tajriba dizayni",
+      "web": "Veb saytlar",
+      "brand": "Brending",
+      "strategy": "Strategiya"
+    },
+    "cards": [
+      {
+        "id": "neobank",
+        "category": "experience",
+        "label": "Fintech",
+        "title": "Neobank mobil ilovasi",
+        "description": "Yangi avlod bank ilovasi uchun foydalanuvchi oqimlari, interaktiv prototiplar va dizayn tizimi."
+      },
+      {
+        "id": "luxhotel",
+        "category": "web",
+        "label": "Mehmonxona",
+        "title": "LuxHotel veb sayti",
+        "description": "Premium mehmonxona tarmog‘i uchun vizual hikoya va onlayn bron qilish tajribasi."
+      },
+      {
+        "id": "saaS",
+        "category": "strategy",
+        "label": "SaaS",
+        "title": "SaaS mahsulot strategiyasi",
+        "description": "B2B platformasi uchun onboarding, narxlanish va retention strategiyalarini ishlab chiqish."
+      },
+      {
+        "id": "fashion",
+        "category": "brand",
+        "label": "Moda",
+        "title": "Moda brendi identikasi",
+        "description": "Minimalistik logotip, tipografiya va onlayn / oflayn materiallar uchun brend qo‘llanmasi."
+      }
+    ]
+  },
+  "contacts": {
+    "title": "Aloqaga chiqing",
+    "subtitle": "Loyihangiz haqida qisqacha yozing — 24 soat ichida javob beramiz.",
+    "form": {
+      "name": "Ism",
+      "email": "Email",
+      "message": "Xabar",
+      "submit": "Xabarni yuborish",
+      "success": "Rahmat! Xabaringiz muvaffaqiyatli yuborildi.",
+      "error": "Iltimos, formadagi xatolarni tekshiring."
+    },
+    "validation": {
+      "nameRequired": "Iltimos, ismingizni kiriting.",
+      "phoneRequired": "Iltimos, telefon raqamingizni kiriting.",
+      "phoneInvalid": "Telefon raqami noto‘g‘ri.",
+      "messageRequired": "Iltimos, xabar matnini kiriting.",
+      "messageShort": "Xabar kamida 10 ta belgidan iborat bo‘lishi kerak."
+    },
+    "info": {
+      "title": "Kontakt ma’lumotlar",
+      "description": "Agar xohlasangiz, bizga to‘g‘ridan-to‘g‘ri qo'ng'iroq qilishingiz yoki Telegram orqali yozishingiz mumkin.",
+      "emailLabel": "Email",
+      "phoneLabel": "Telefon",
+      "locationLabel": "Manzil",
+      "locationValue": "O’rikzor savdo kompleksi Stroygorod 2-blok 231-do’kon",
+      "mapPlaceholder": "Interaktiv xarita bu yerda bo‘ladi. Hozircha biz bilan bog‘lanish uchun formadan foydalaning."
+    }
+  },
+  "layout": {
+    "footer": {
+      "rights": "Barcha huquqlar himoyalangan.",
+      "crafted": "Har bir detal SaraMax tomonidan e’tibor bilan ishlab chiqilgan."
+    }
+  },
+  "actions": {
+    "viewProject": "Loyihani ko‘rish",
+    "learnMore": "Batafsil"
+  }
+}
+

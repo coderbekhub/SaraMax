@@ -1,0 +1,133 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "services": "Services",
+    "contacts": "Contacts"
+  },
+  "hero": {
+    "kicker": "SaraMax — We Protect What You Trust",
+    "title": "Take your security to the next level with SaraMax.",
+    "subtitle": "High-quality safes manufactured using modern technologies. Maximum security for your valuables and important documents.",
+    "ctaPrimary": "Contact Us",
+    "ctaSecondary": "Explore Projects"
+  },
+  "intro": {
+    "title": "A short story about SaraMax",
+    "text": "SaraMax is a team of senior designers and engineers based in Tashkent, helping businesses launch digital products fast and with confidence. We blend strategy, design and technology to deliver truly premium results for every project."
+  },
+  "services": {
+    "previewTitle": "What we do",
+    "previewSubtitle": "We create security — you experience peace of mind.",
+    "pageTitle": "Premium services",
+    "pageSubtitle": "Every engagement is built on deep insight, strong UX and measurable outcomes.",
+    "cards": [
+      {
+        "id": "experience",
+        "tag": "UX / UI",
+        "title": "Digital product design",
+        "description": "Intuitive interfaces, user flows and design systems for mobile and web products."
+      },
+      {
+        "id": "brand",
+        "tag": "Branding",
+        "title": "Brand identity",
+        "description": "Logos, visual language, color systems and guidelines for a consistent brand presence."
+      },
+      {
+        "id": "web",
+        "tag": "Frontend",
+        "title": "High-end websites",
+        "description": "Fast, responsive and SEO-ready marketing sites and landing pages."
+      },
+      {
+        "id": "strategy",
+        "tag": "Consulting",
+        "title": "Digital strategy",
+        "description": "Product strategy, user research and analytics to support confident decisions."
+      }
+    ]
+  },
+  "projects": {
+    "previewTitle": "Quality Projects",
+    "previewSubtitle": "We earn trust through outcomes.",
+    "pageTitle": "Our Projects",
+    "pageSubtitle": "Our projects — the perfect blend of modern technology and robust security.",
+    "filters": {
+      "all": "All",
+      "experience": "Experience design",
+      "web": "Web",
+      "brand": "Branding",
+      "strategy": "Strategy"
+    },
+    "cards": [
+      {
+        "id": "neobank",
+        "category": "experience",
+        "label": "Fintech",
+        "title": "Neobank mobile app",
+        "description": "User journeys, interactive prototypes and a robust design system for a next-gen banking app."
+      },
+      {
+        "id": "luxhotel",
+        "category": "web",
+        "label": "Hospitality",
+        "title": "LuxHotel website",
+        "description": "Immersive storytelling and a frictionless booking experience for a luxury hotel chain."
+      },
+      {
+        "id": "saaS",
+        "category": "strategy",
+        "label": "SaaS",
+        "title": "SaaS product strategy",
+        "description": "Onboarding, pricing and retention strategy for a B2B platform."
+      },
+      {
+        "id": "fashion",
+        "category": "brand",
+        "label": "Fashion",
+        "title": "Fashion brand identity",
+        "description": "Minimal logo, typography and brand system across digital and physical touchpoints."
+      }
+    ]
+  },
+  "contacts": {
+    "title": "Let’s talk",
+    "subtitle": "Share a few lines about your project — we’ll get back within 24 hours.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send message",
+      "success": "Thank you! Your message has been sent.",
+      "error": "Please review the highlighted fields."
+    },
+    "validation": {
+      "nameRequired": "Please enter your name.",
+      "emailRequired": "Please enter your email.",
+      "emailInvalid": "Please enter a valid email address.",
+      "messageRequired": "Please enter a message.",
+      "messageShort": "Your message should be at least 10 characters long."
+    },
+    "info": {
+      "title": "Contact details",
+      "description": "If you wish, you can call us directly or message us via Telegram.",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "locationLabel": "Address",
+      "locationValue": "Orikzor Shopping Complex, Block 2, Shop 231, Stroygorod.",
+      "mapPlaceholder": "An interactive map will live here. For now, use the form to get in touch."
+    }
+  },
+  "layout": {
+    "footer": {
+      "rights": "All rights reserved.",
+      "crafted": "Every detail is carefully crafted by SaraMax."
+    }
+  },
+  "actions": {
+    "viewProject": "View project",
+    "learnMore": "Learn more"
+  }
+}
+
