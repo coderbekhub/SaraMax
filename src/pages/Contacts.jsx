@@ -142,7 +142,7 @@ const Contacts = () => {
                     value={values.message}
                     onChange={handleChange}
                     className="field__input field__input--textarea"
-                    placeholder="Habaringizni kiriting"
+                    placeholder="Habaringizni kiriting!"
                   />
                   <span className="field__focus-ring" />
                 </div>
