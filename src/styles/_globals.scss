@@ -89,7 +89,10 @@ p {
 .section__grid {
   display: grid;
   gap: 2.25rem;
-
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
   &--split {
     @include mixins.media-md {
       grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.9fr);
@@ -162,7 +165,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-block: 1.1rem;
+    // padding-block: 1.1rem;
   }
 
   &__logo {
@@ -406,7 +409,7 @@ p {
     flex-wrap: wrap;
     gap: 0.85rem;
     margin-top: 2rem;
-    margin-bottom: 1.7rem;
+    // margin-bottom: 1.7rem;
     
   }
 
@@ -423,17 +426,31 @@ p {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    padding-top: 140px;
   }
 }
 
 @media (max-width: 1087px) {
   .hero {
+    margin-bottom: 100px;
+     &__subtitle {
+    font-size: $font-size-lg;
+    max-width: 32rem;
+    margin: 0 auto;
+  }
+
+  &__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.85rem; 
+    margin-top: 2rem;
+    justify-content: center;
+  }
     .heroContent {
       flex-direction: column-reverse;
-
-      .hero__inner {
-        margin-bottom: 50px;
-      }
+      padding-top: 0px;
+      margin-top: -50px;
+      text-align: center;
     }
   }
 }
@@ -601,6 +618,7 @@ p {
 
 // Contacts
 .section--contacts {
+  padding-top: 150px;
   .contact-form {
     margin-top: 1.4rem;
     display: flex;
@@ -706,7 +724,6 @@ p {
 
   .contact-info {
     margin-top: 3rem;
-
     @include mixins.media-md {
       margin-top: 0;
     }
@@ -717,6 +734,7 @@ p {
     }
 
     &__text {
+      width: 300px;
       margin-bottom: 1.3rem;
     }
 
@@ -784,8 +802,20 @@ p {
     }
 
     .map {
+      width: 350px;
+      height: 300px;
       border-radius: 30px;
     }
+  }
+}
+
+@media (max-width: 829px) {
+  .section--contacts {
+    padding-top: 0px;
+  }
+  .section__grid {
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -799,14 +829,14 @@ p {
       transparent 55%
     ),
     rgba(15, 23, 42, 0.96);
-
-  &__inner {
+    &__inner {
     @include mixins.container;
     display: flex;
-    flex-direction: column;
-    gap: 1rem;
+    align-items: center;
     justify-content: space-between;
-
+    flex-wrap: wrap; 
+    gap: 1rem;
+    
     @include mixins.media-md {
       flex-direction: row;
       align-items: center;
@@ -848,3 +878,13 @@ p {
   }
 }
 
+@media (max-width: 490px) {
+  .footer {
+    &__inner {
+    @include mixins.container;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  }
+}

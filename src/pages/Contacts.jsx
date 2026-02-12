@@ -76,7 +76,7 @@ const Contacts = () => {
               subtitle={t('contacts.subtitle')}
             /> */}
 
-            <motion.form
+            {/* <motion.form
               className="contact-form"
               onSubmit={handleSubmit}
               initial={{ opacity: 0, y: 18 }}
@@ -164,9 +164,7 @@ const Contacts = () => {
                   </p>
                 )}
               </div>
-            </motion.form>
-          </div>
-
+            </motion.form> */}
           <motion.aside
             className="contact-info"
             initial={{ opacity: 0, x: 30 }}
@@ -204,16 +202,17 @@ const Contacts = () => {
               </li>
             </ul>
 
+          </motion.aside>
+          </div>
             <div className="contact-map">
               <div className="contact-map__glass1">
                 {/* <span className="contact-map__dot contact-map__dot--one" /> */}
                 <span className="contact-map__dot contact-map__dot--two" />
-                <p className="contact-map__placeholder">
-                  <iframe className='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118047.0530334864!2d68.99734039726557!3d41.28666060000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8901363e8813%3A0xec5319ff49acfa1d!2zIk8ncml6b3Igc2F2ZG8ga29tcGxlLXNpIiBNQ2hKICgwKjEwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMCk!5e1!3m2!1sru!2s!4v1770728467846!5m2!1sru!2s" width="450" height="250" frameBorder="0" allowFullScreen="" loading="lazy"></iframe>
-                </p>
+                {/* <p className="contact-map__placeholder"> */}
+                  <iframe className='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118047.0530334864!2d68.99734039726557!3d41.28666060000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8901363e8813%3A0xec5319ff49acfa1d!2zIk8ncml6b3Igc2F2ZG8ga29tcGxlLXNpIiBNQ2hKICgwKjEwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMCk!5e1!3m2!1sru!2s!4v1770728467846!5m2!1sru!2s"></iframe>
+                {/* </p> */}
               </div>
             </div>
-          </motion.aside>
         </div>
       </section>
     </motion.div>
