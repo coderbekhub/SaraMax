@@ -200,8 +200,10 @@ p {
     gap: 0.75rem;
     padding-inline: 0.5rem;
 
-    @include mixins.media-md {
-      display: flex;
+    &--desktop {
+      @include mixins.media-md {
+        display: flex;
+      }
     }
   }
 
@@ -247,6 +249,62 @@ p {
     display: flex;
     align-items: center;
     gap: 0.75rem;
+  }
+
+  &__burger {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.22rem;
+    padding: 0.3rem;
+    border-radius: 999px;
+    border: 1px solid rgba(148, 163, 184, 0.4);
+    background: rgba(15, 23, 42, 0.9);
+    cursor: pointer;
+
+    span {
+      width: 1.15rem;
+      height: 1px;
+      border-radius: 999px;
+      background: rgba(148, 163, 184, 0.9);
+      transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+
+    &--active span:first-child {
+      transform: translateY(2px) rotate(40deg);
+    }
+
+    &--active span:last-child {
+      transform: translateY(-2px) rotate(-40deg);
+    }
+
+    @include mixins.media-md {
+      display: none;
+    }
+  }
+}
+
+.navbar__nav-mobile {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.6rem 1.25rem 1rem;
+  background: linear-gradient(
+      145deg,
+      rgba(15, 23, 42, 0.98),
+      rgba(15, 23, 42, 0.96)
+    );
+  border-bottom: 1px solid rgba(148, 163, 184, 0.35);
+  backdrop-filter: blur(22px);
+
+  .navbar__link--mobile {
+    width: 100%;
+    padding-block: 0.55rem;
+  }
+
+  @include mixins.media-md {
+    display: none;
   }
 }
 
