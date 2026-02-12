@@ -69,12 +69,12 @@ p {
 }
 
 .page {
-  padding-top: 5.5rem;
-  padding-bottom: 4rem;
+  // padding-top: 5.5rem;
+  // padding-bottom: 4rem;
 
   @include mixins.media-md {
-    padding-top: 6.5rem;
-    padding-bottom: 5rem;
+    // padding-top: 6.5rem;
+    // padding-bottom: 5rem;
   }
 }
 
@@ -407,6 +407,7 @@ p {
     gap: 0.85rem;
     margin-top: 2rem;
     margin-bottom: 1.7rem;
+    
   }
 
   &__meta {
@@ -421,7 +422,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap
+    flex-wrap: wrap;
   }
 }
 
@@ -578,9 +579,17 @@ p {
 }
 
 // Services
-.servicesSection {
-  margin-bottom: 150px;
+// .servicesSection {
+//   margin-top: 150px;  
+// }
+
+@media (max-width: 1087px) {
+  .servicesSection {
+    padding-top: 150px;
+  }
 }
+
+
 .section--services-page .grid--services {
   margin-top: 1.2rem;
 }

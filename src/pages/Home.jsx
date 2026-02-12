@@ -2,7 +2,6 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-
 import Button from '../components/UI/Button.jsx';
 import SectionHeader from '../components/UI/SectionHeader.jsx';
 import ServiceCard from '../components/UI/ServiceCard.jsx';

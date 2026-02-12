@@ -47,14 +47,14 @@ const Navbar = () => {
           >
             {t('nav.projects')}
           </NavLink>
-          <NavLink
+          {/* <NavLink
             to="/services"
             className={({ isActive }) =>
               `navbar__link ${isActive ? 'navbar__link--active' : ''}`
             }
           >
             {t('nav.services')}
-          </NavLink>
+          </NavLink> */}
           <NavLink
             to="/contacts"
             className={({ isActive }) =>
@@ -111,7 +111,7 @@ const Navbar = () => {
             >
               {t('nav.projects')}
             </NavLink>
-            <NavLink
+            {/* <NavLink
               to="/services"
               className={({ isActive }) =>
                 `navbar__link navbar__link--mobile ${
@@ -120,7 +120,7 @@ const Navbar = () => {
               }
             >
               {t('nav.services')}
-            </NavLink>
+            </NavLink> */}
             <NavLink
               to="/contacts"
               className={({ isActive }) =>
